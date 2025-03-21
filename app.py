@@ -99,5 +99,5 @@ def main():
     conflicts = detect_conflicts(user_role_mapping, privilege_role_mapping, entitlement_mapping, sod_rules, user_map, role_map)
     generate_conflict_report(conflicts)
 
-if _name_ == "_main_":
+if "__name__" == "_main_":
     main()
